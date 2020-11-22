@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/",
+    "component": "SamplePage",
+    "exact": true
+  },
+  {
+    "path": "/home/:id",
+    "component": "SamplePage",
+    "exact": false
+  },
+  {
+    "path": "/demo/parallex",
+    "component": "ParallexDemo",
+    "exact": false
+  },
+  {
+    "path": "/404",
+    "component": "SamplePage",
+    "exact": false
+  }
+]
