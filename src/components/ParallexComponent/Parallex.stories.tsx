@@ -7,7 +7,7 @@ import { withTests } from '@storybook/addon-jest'
 import results from '../../.jest-test-results.json'
 
 export default {
-  title: 'CustomComponet/Parallex',
+  title: 'Custom Componet/Parallex',
   component: Parallex,
   decorators: [withTests({ results })],
 } as Meta

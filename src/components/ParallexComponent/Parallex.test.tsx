@@ -7,3 +7,8 @@ it('Default Render', () => {
   render(<Default {...Default.args} />)
   expect(screen.getAllByAltText('test'))
 })
+
+it('Default Render reverse', () => {
+  render(<Default {...Default.args} />)
+  expect(screen.getAllByAltText('fail'))
+})

@@ -6,7 +6,7 @@ import { SampleProps } from './SampleComponent'
 import { withTests } from '@storybook/addon-jest'
 import results from '../../.jest-test-results.json'
 export default {
-  title: 'CustomComponet/Sample',
+  title: 'Custom Componet/Sample',
   component: SampleComponent,
   decorators: [withTests({ results })],
   args: {
